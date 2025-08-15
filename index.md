@@ -15,9 +15,11 @@ Hi! My name is Adya Shipekar. 😝😁
 | Scrummer     | Salma    | github.com/Salma-Zag/student             | downstream (fork)     | student   |
 | Scrummer     | Niharika | github.com/Niharika-Boyanapalli/student  | downstream (fork)     | student   |
 
-About Me: 
-     Freshman at Del Norte
-     Favorite Color: Red
+About Me:   
+<br>   Freshman at Del Norte
+<br>   Favorite Color: Red
+<br>   Pets: Bird (Frosty), Fish (Ruby)
+<br>   Hobbies: Piano, Reading, Rollerblading, Science
 
 
 ## Links to Learning
