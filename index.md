@@ -21,6 +21,7 @@ About Me:
 <br>&nbsp;&nbsp;&nbsp;Pets: Bird (Frosty), Fish (Ruby)
 <br>&nbsp;&nbsp;&nbsp;Hobbies: Piano, Reading, Rollerblading, Science
 
+<br>
 
 ## Links to Learning
 
