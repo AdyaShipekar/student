@@ -6,7 +6,7 @@ hide: true
 
 ### Me and Team
 
-Hi! My name is Adya Shipekar. 😝
+Hi! My name is Adya Shipekar. 😝😁
 
 | Role         | Name     | Repo Location                            | Stream                | Repo Name |
 |--------------|----------|------------------------------------------|-----------------------|-----------|
@@ -14,6 +14,10 @@ Hi! My name is Adya Shipekar. 😝
 | Scrummer     | Adya     | github.com/AdyaShipekar/student          | downstream (fork)     | student   |
 | Scrummer     | Salma    | github.com/Salma-Zag/student             | downstream (fork)     | student   |
 | Scrummer     | Niharika | github.com/Niharika-Boyanapalli/student  | downstream (fork)     | student   |
+
+About Me: 
+     Freshman at Del Norte
+     Favorite Color: Red
 
 
 ## Links to Learning
