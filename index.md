@@ -61,3 +61,4 @@ About Me:
 
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
 <p>Discord: @redridinghood</p>
+<p>Email: adyas45785@stu.powayusd.com</p>
