@@ -42,8 +42,8 @@ Hi! My name is Adya Shipekar.
 <a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
     Snake Game
 </a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
-    <span style="color: #000000">Turtle</span>
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #04550dff">
+    <span style="color: #ffffffff">Turtle</span>
 </a>
 
 <br>
