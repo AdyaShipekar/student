@@ -6,7 +6,7 @@ hide: true
 
 ### Me and Team
 
-Hi! My name is Adya Shipekar. 😄🙃
+Hi! My name is Adya Shipekar. 😄
 
 | Role         | Name     | Repo Location                            | Stream                | Repo Name |
 |--------------|----------|------------------------------------------|-----------------------|-----------|
