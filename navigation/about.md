@@ -5,7 +5,7 @@ permalink: /about/
 comments: true
 ---
 
-## About Me
+### About Me
 &nbsp;&nbsp;&nbsp;Freshman at Del Norte
 <br>&nbsp;&nbsp;&nbsp;Favorite Color: Red
 <br>&nbsp;&nbsp;&nbsp;Pets: Bird (Frosty), Fish (Ruby)
@@ -105,13 +105,13 @@ Education:
 - 🏫 Middle School: Oak Valley Middle School
 - 🏫 High School: Del Norte High School (currently a Freshman)
 
-### Culture, Family, and Fun
+### Family
 
-Everything for me, as for many others, revolves around family and faith.
+- There are 3 people in my family: my and my parents
+- I have no siblings but LOTS of cousins!
+- I own a bird named Frosty and a fish named Ruby
+- I love spending time with my family!
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
