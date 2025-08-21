@@ -15,7 +15,6 @@ Hi! My name is Adya Shipekar. 😄
 | Scrummer     | Salma    | github.com/Salma-Zag/student             | downstream (fork)     | student   |
 | Scrummer     | Niharika | github.com/Niharika-Boyanapalli/student  | downstream (fork)     | student   |
 
-
 <br>
 
 ## Links to Learning
