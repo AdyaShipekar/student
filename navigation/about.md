@@ -128,7 +128,9 @@ Pictures of My Family, scroll to the right for more ...
 ## Hobbies and Interests
 
 - STEM-oriented: love participating in extracurriculars like Science Olympiad and cybersecurity
-- Piano!!! 🎹
+- I have been playing the piano since I was 5 🎹
 - I like to read and write in my spare time (I am currently revising a draft of my very own novel!)
-- Rollerblading w/ friends
+- Rollerblading w/ friends 🛼
+- Currently obsessed with Tate McRae, EPIC: The Musical, and Formula 1
+
 
