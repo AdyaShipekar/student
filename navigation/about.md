@@ -5,12 +5,6 @@ permalink: /about/
 comments: true
 ---
 
-### About Me
-&nbsp;&nbsp;&nbsp;Freshman at Del Norte
-<br>&nbsp;&nbsp;&nbsp;Favorite Color: Red
-<br>&nbsp;&nbsp;&nbsp;Pets: Bird (Frosty), Fish (Ruby)
-<br>&nbsp;&nbsp;&nbsp;Hobbies: Piano, Reading, Rollerblading, Science
-
 ## As a Conversation Starter
 
 Locations:
@@ -114,7 +108,7 @@ Education:
 
 
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Pictures of My Family, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
@@ -130,3 +124,11 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
 </div>
+
+## Hobbies and Interests
+
+- STEM-oriented: love participating in extracurriculars like Science Olympiad and cybersecurity
+- Piano!!! 🎹
+- I like to read and write in my spare time (I am currently revising a draft of my very own novel!)
+- Rollerblading w/ friends
+
