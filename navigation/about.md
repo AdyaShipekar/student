@@ -5,9 +5,13 @@ permalink: /about/
 comments: true
 ---
 
-## As a Conversation Starter
+### About Me
 
-Locations:
+- Age: 14
+- Birthday: June 1st
+- Favorite Color: Red
+
+## Locations
 
 <style>
     /* Style looks pretty compact, 
@@ -95,7 +99,7 @@ Locations:
 
 Education:
 
-- 🏫 Elementary Schools: some private (Montessori) in LA, Willow Grove Elementary School in SD
+- 🏫 Elementary Schools: Peninsula Montessori in LA, Willow Grove Elementary School in SD
 - 🏫 Middle School: Oak Valley Middle School
 - 🏫 High School: Del Norte High School (currently a Freshman)
 
