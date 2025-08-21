@@ -5,13 +5,13 @@ permalink: /about/
 comments: true
 ---
 
-### About Me
+## About Me
 
 - Age: 14
 - Birthday: June 1st
 - Favorite Color: Red
 
-## Locations
+### Locations
 
 <style>
     /* Style looks pretty compact, 
@@ -129,7 +129,7 @@ Pictures of My Family, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
 </div>
 
-## Hobbies and Interests
+### Hobbies and Interests
 
 - STEM-oriented: love participating in extracurriculars like Science Olympiad and cybersecurity
 - I have been playing the piano since I was 5 🎹
