@@ -13,11 +13,7 @@ comments: true
 
 ## As a Conversation Starter
 
-Here are some places I have lived.
-
-<comment>
-Flags are made using Wikipedia images
-</comment>
+Locations:
 
 <style>
     /* Style looks pretty compact, 
@@ -67,6 +63,7 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "born in Los Angeles", "description": "California - forever"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "nationality: Indian", "description": "India 🇮🇳"}
     ];
 
     // 3a. Consider how to update style count for size of container
