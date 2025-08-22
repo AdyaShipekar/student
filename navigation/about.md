@@ -10,6 +10,7 @@ comments: true
 <comment>
 Some pictures of me:
 </comment>
+</br>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/Pics/me_and_beach.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/Pics/me_and_cat.jpg" alt="Image 2">
