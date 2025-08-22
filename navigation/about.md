@@ -10,7 +10,6 @@ comments: true
 <comment>
 Some pictures of me:
 </comment>
-</br>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/Pics/me_and_beach.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/Pics/me_and_cat.jpg" alt="Image 2">
@@ -18,7 +17,7 @@ Some pictures of me:
   <img src="{{site.baseurl}}/images/Pics/me_in_india.jpg" alt="Image 4">
   <img src="{{site.baseurl}}/images/Pics/me_watermelon.jpg" alt="Image 5">
 </div>
-
+<br>
 - Age: 14
 - Birthday: June 1st
 - Favorite Color: Red
