@@ -132,7 +132,7 @@ Pictures of My Family, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/Pics/IMG_3700.jpg" alt="Image 4">
   <img src="{{site.baseurl}}/images/Pics/IMG_3447.jpg" alt="Image 5">
   <img src="{{site.baseurl}}/images/Pics/IMG_1837.jpg" alt="Image 6">
-  <img src="{{site.baseurl}}/images/about/lora_fam2.jpg" alt="Image 7">
+  <img src="{{site.baseurl}}/images/Pics/IMG_8901.jpg" alt="Image 7">
 </div>
 
 ### Hobbies and Interests
