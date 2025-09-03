@@ -60,7 +60,7 @@ Hi! My name is Adya Shipekar. 😄
 <br>
 
 <!-- Contact Section -->
-### Get in Touch
+## Get in Touch
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
