@@ -39,10 +39,8 @@ Hi! My name is Adya Shipekar. 😄
 <br>
 ### Tools and Equipment
 
-<a href="{{site.baseurl}}/pages/jokes" class="button small" style="background-color: #a41cc3ff">
+<a href="{{site.baseurl}}/github/pages/jokes" class="button small" style="background-color: #a41cc3ff">
     Jupyter Notebooks
-
-<br> 
 
 <a href="{{site.baseurl}}/tools/trouble" class="button small" style="background-color: #a41cc3ff">
     Troubleshooting Guide
