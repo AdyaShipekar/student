@@ -37,6 +37,18 @@ Hi! My name is Adya Shipekar. 😄
 </a>
 
 <br>
+### Tools and Equipment
+
+<a href="{{site.baseurl}}/pages/jokes" class="button small" style="background-color: #a41cc3ff">
+    Jupyter Notebooks
+
+<br> 
+
+<a href="{{site.baseurl}}/tools/trouble" class="button small" style="background-color: #a41cc3ff">
+    Troubleshooting Guide
+
+
+<br>
 
 ### Class Progress
 
