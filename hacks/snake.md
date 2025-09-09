@@ -66,11 +66,49 @@ permalink: /snake
         background-color: #FFF;
         color: #000;
     }
+
+    #scoreboard {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #057e38ff;
+        border-radius: 8px; 
+        background-color: rgba(0, 0, 0, 0.05);
+        color: #057e38ff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Orbitron', sans-serif;
+        margin-bottom: 10px;
+        box-shadow: 0 0 10px rgba(0,255,204,0.3);
+            transition: all 0.3s ease;
+            text-align: center;
+    }
+
+    #scoreboard:hover {
+        background-color: rgba(0,255,204,0.15)
+    }
+
+    #score_value {
+        margin-left: 8px;
+        color: #ffffff; 
+    }
+
+    @keyframes bounce {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.4);}
+        100% {transform: scale(1);}
+    }
+
+    .score-bounce {
+        animation: bounce 0.3s ease;
+    }
 </style>
 
 <h2>Snake</h2>
 <div class="container">
-    <p class="fs-4">Score: <span id="score_value">0</span></p>
+    <div id="scoreboard">
+        <span id="score_label">Score:</span>
+        <span id="score_value">0</span>
+    </div>
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
@@ -376,6 +414,15 @@ permalink: /snake
         /////////////////////////////////////////////////////////////
         let altScore = function(score_val){
             ele_score.innerHTML = String(score_val);
+
+            //Reset animation
+            ele_score.classList.remove("score-bounce");
+
+            //Trigger reflow to restart the animation
+            void ele_score.offsetWidth;
+
+            //Add bounce class again
+            ele_score.classList.add("score-bounce");
         }
         /////////////////////////////////////////////////////////////
         // Change the snake speed...
