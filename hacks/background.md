@@ -62,8 +62,9 @@ permalink: /background
 
     class Player extends GameObject {
       constructor(image, gameWorld) {
-        const width = image.naturalWidth / 2;
-        const height = image.naturalHeight / 2;
+        /// to change GameObject size
+        const width = image.naturalWidth;
+        const height = image.naturalHeight;
         const x = (gameWorld.width - width) / 2;
         const y = (gameWorld.height - height) / 2;
         super(image, width, height, x, y);
@@ -71,7 +72,8 @@ permalink: /background
         this.frame = 0;
       }
       update() {
-        this.y = this.baseY + Math.sin(this.frame * 0.05) * 20;
+        /// to make the UFO move faster, change the number after * 
+        this.y = this.baseY + Math.sin(this.frame * 0.1) * 20;
         this.frame++;
       }
     }
