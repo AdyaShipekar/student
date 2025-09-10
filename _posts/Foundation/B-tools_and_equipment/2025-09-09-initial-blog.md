@@ -3,7 +3,7 @@ toc: True
 layout: post
 data: setup
 title: Tools and Equipment Setup - Individual Guide
-description: My journey through setting up tools and equipmet.
+description: My journey through setting up tools and equipment.
 categories: ['DevOps']
 author: Adya Shipekar
 permalink: /tools/blog
@@ -14,7 +14,7 @@ breadcrumb: True
 
 In Sprint 1, we learned how to set up the basic tools and equipment and implement basic functions of VSCode to run our repositories. Here's a brief explanation of how I set up my computer to successfully run the tools necessary in CSSE:
 
-**_NOTE: This setup is for WINDOWS computers only. If you are running your tools on a Mac or Kasm, the process may differ._**
+**_NOTE: This setup is for WINDOWS computers only. If you are running your tools on a Mac or KASM server, the process may differ._**
 
 ---
 
@@ -34,12 +34,6 @@ In Sprint 1, we learned how to set up the basic tools and equipment and implemen
 
 
 Download and install **Visual Studio Code** from [code.visualstudio.com](https://code.visualstudio.com/).
-
-
-- Install recommended extensions:
-- *Python*
-- *GitHub Pull Requests and Issues*
-- *Jupyter Notebooks* (you will need this in future projects)
 
 
 ---
@@ -62,13 +56,21 @@ Download and install **Visual Studio Code** from [code.visualstudio.com](https:/
 1. Open **PowerShell** as Administrator.
 2. Run:
 ```powershell
-wsl --install
+wsl --install -d Ubuntu-24.04
+wsl --set-default Ubuntu-24.04
 ```
 3. Restart your system.
 4. Open WSL (Ubuntu by default).
-5. Update your packages:
+5. First-time Ubuntu setup:
 ```bash
-sudo apt update && sudo apt upgrade -y
+mkdir opencs
+cd opencs
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+git clone https://github.com/Open-Coding-Society/student.git
+cd student/
+./scripts/activate_ubuntu.sh # prompts for your recently created WSL Ubuntu password
+./scripts/activate.sh # prompts for Git UID and Personal Email
+./scripts/venv.sh
 ```
 
 
@@ -78,7 +80,7 @@ sudo apt update && sudo apt upgrade -y
 ### Step 5: Clone Repo in WSL
 
 
-Inside your WSL terminal:
+Inside your WSL Ubuntu terminal:
 
 
 ```bash
@@ -90,26 +92,51 @@ cd <your-forked-repo>
 
 ---
 
-
-### Step 6: Open VS Code from WSL
-
-
-In your WSL terminal:
+### Step 6: Verification
 
 
+In your WSL Ubuntu terminal:
 ```bash
-code .
+git --version # check that your GitHub has been successfully installed
+python --version
+pip --version
+ruby -v
+bundle -v
+gem --version
+git config --global --list
 ```
-
-
-This will launch VS Code connected to your WSL environment.
 
 
 ---
 
 
-### Step 7: Run `make`
+### Step 7: Open VSCode from WSL
 
+
+In your WSL Ubuntu terminal, in your forked repository:
+
+
+```bash
+source venv/bin/activate
+bundle install
+code .
+```
+
+
+This will launch VS Code connected to your WSL environment. In the bottom left corner of VSCode you should see a blue rectangle that says 'WSL:Ubuntu-24.04'
+
+
+---
+
+
+### Step 8: Saving Changes
+
+Before you commit changes, make sure your GitHub is running under your own account. In VSCode terminal:
+
+```bash
+git config --global user.name "<github username>"
+git config --global user.email <github email>
+```
 
 Many projects include a **Makefile**. To build or run tasks:
 
@@ -119,16 +146,8 @@ make
 ```
 
 
-If there are specific targets:
-
-
-```bash
-make test
-make run
-```
-
 
 ---
 
 
-✅ Congratulations! You now have Slack, GitHub, OpenCS, VS Code, and WSL all set up. You’ve forked and cloned your project, and successfully run `make` inside WSL. 🚀
+✅ Congratulations! You should now have Slack, GitHub, OpenCS, VS Code, and WSL all set up. You’ve forked and cloned your project, and successfully saved changes inside WSL. 🚀
