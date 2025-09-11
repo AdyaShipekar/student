@@ -3,17 +3,17 @@ layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 sprite: images/platformer/sprites/flying-ufo.png
-background: images/platformer/backgrounds/alien_planet1.jpg
+background: images/platformer/backgrounds/alien_planet2.jpg
 permalink: /background
 ---
 
-<canvas id="world"></canvas>
+<canvas id="world"></canvas> <!-- Creates a canvas element with id "world" to draw the game on. -->
 
 <script>
   const canvas = document.getElementById("world");
   const ctx = canvas.getContext('2d');
-  const backgroundImg = new Image();
-  const spriteImg = new Image();
+  const backgroundImg = new Image(); // Create a new Image Gameobject for the background using the image source.
+  const spriteImg = new Image(); // Create a new Image Gameobject for the sprite using the image source.
   backgroundImg.src = '{{page.background}}';
   spriteImg.src = '{{page.sprite}}';
 
@@ -28,15 +28,16 @@ permalink: /background
   };
 
   function startGameWorld() {
-    if (imagesLoaded < 2) return;
+    if (imagesLoaded < 2) return; // The GameWorld only starts once both images have loaded.
 
     class GameObject {
+      /// the UFO
       constructor(image, width, height, x = 0, y = 0, speedRatio = 0) {
         this.image = image;
         this.width = width;
         this.height = height;
-        this.x = x;
-        this.y = y;
+        this.x = x; // The position of the GameObject on the canvas.
+        this.y = y; // The position of the GameObject on the canvas.
         this.speedRatio = speedRatio;
         this.speed = GameWorld.gameSpeed * this.speedRatio;
       }
@@ -52,7 +53,7 @@ permalink: /background
         super(image, gameWorld.width, gameWorld.height, 0, 0, 0.1);
       }
       update() {
-        this.x = (this.x - this.speed) % this.width;
+        this.x = (this.x - this.speed) % this.width; // Scrolls background left and loops it seamlessly.
       }
       draw(ctx) {
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
@@ -63,17 +64,17 @@ permalink: /background
     class Player extends GameObject {
       constructor(image, gameWorld) {
         /// to change GameObject size
-        const width = image.naturalWidth;
-        const height = image.naturalHeight;
-        const x = (gameWorld.width - width) / 2;
-        const y = (gameWorld.height - height) / 2;
+        const width = image.naturalWidth / 2;
+        const height = image.naturalHeight / 2;
+        const x = (gameWorld.width - width) / 2; // Center the UFO horizontally.
+        const y = (gameWorld.height - height) / 2; // Center the UFO vertically.
         super(image, width, height, x, y);
         this.baseY = y;
         this.frame = 0;
       }
       update() {
         /// to make the UFO move faster, change the number after * 
-        this.y = this.baseY + Math.sin(this.frame * 0.1) * 20;
+        this.y = this.baseY + Math.sin(this.frame * 0.1) * 20; // Up+down movement of the UFO.
         this.frame++;
       }
     }
