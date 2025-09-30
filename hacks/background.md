@@ -17,12 +17,12 @@ permalink: /background
   backgroundImg.src = '{{page.background}}';
   spriteImg.src = '{{page.sprite}}';
 
-  let imagesLoaded = 0;
+  let imagesLoaded = 0; // Loading the background adds a value to the ImagesLoaded variable.
   backgroundImg.onload = function() {
     imagesLoaded++;
     startGameWorld();
   };
-  spriteImg.onload = function() {
+  spriteImg.onload = function() { // Loading the sprite adds a value to the ImagesLoaded variable.
     imagesLoaded++;
     startGameWorld();
   };
@@ -33,7 +33,7 @@ permalink: /background
     class GameObject {
       /// the UFO
       constructor(image, width, height, x = 0, y = 0, speedRatio = 0) {
-        this.image = image;
+        this.image = image; // Defining variables
         this.width = width;
         this.height = height;
         this.x = x; // The position of the GameObject on the canvas.
@@ -64,8 +64,8 @@ permalink: /background
     class Player extends GameObject {
       constructor(image, gameWorld) {
         /// to change GameObject size
-        const width = image.naturalWidth / 2;
-        const height = image.naturalHeight / 2;
+        const width = image.naturalWidth / 1;
+        const height = image.naturalHeight / 1;
         const x = (gameWorld.width - width) / 2; // Center the UFO horizontally.
         const y = (gameWorld.height - height) / 2; // Center the UFO vertically.
         super(image, width, height, x, y);
