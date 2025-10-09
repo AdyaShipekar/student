@@ -141,6 +141,6 @@ Pictures of My Family, scroll to the right for more ...
 - I have been playing the piano since I was 5 🎹
 - I like to read and write in my spare time (I am currently revising a draft of my very own novel!)
 - Rollerblading w/ friends 🛼
-- Currently obsessed with Tate McRae, EPIC: The Musical, and Formula 1
+- Currently obsessed with Stray Kids, EPIC: The Musical, and Formula 1
 
 
